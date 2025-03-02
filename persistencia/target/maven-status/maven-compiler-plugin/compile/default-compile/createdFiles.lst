@@ -1,0 +1,4 @@
+ve\com\persistencia\entidades\EntityParametros.class
+ve\com\persistencia\repositorios\RepositoryParametros.class
+ve\com\persistencia\configuracion\PersistenciaConfig.class
+ve\com\persistencia\App.class
