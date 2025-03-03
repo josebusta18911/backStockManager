@@ -1,4 +1,4 @@
-2024-09-03 08:51:52.789  INFO 15288 --- [main] s.r.parametros.TestServicioParametros    : Starting TestServicioParametros using Java 1.8.0_291 on SC1_MZ1_0JBS9L with PID 15288 (started by CT24954 in D:\Documents and Settings\ct24954\Desktop\notinfi\servicio-rest)
+2024-09-03 08:51:52.789  INFO 15288 --- [main] s.r.parametros.TestServicioParametros    : Starting TestServicioParametros using Java 1.8.0_291 on SC1_MZ1_0JBS9L with PID 15288 (started by CT24954 in D:\Documents and Settings\ct24954\Desktop\stockManager\servicio-rest)
 2024-09-03 08:51:52.805  INFO 15288 --- [main] s.r.parametros.TestServicioParametros    : No active profile set, falling back to 1 default profile: "default"
 2024-09-03 08:51:53.448  INFO 15288 --- [main] v.c.s.rest.configuracion.Configuracion   : Inicializador de Aplicacion
 2024-09-03 08:51:53.522  INFO 15288 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
@@ -6,7 +6,7 @@
 2024-09-03 08:51:53.694  INFO 15288 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 172 ms
 2024-09-03 08:51:53.757  INFO 15288 --- [main] s.r.parametros.TestServicioParametros    : Started TestServicioParametros in 1.557 seconds (JVM running for 2.651)
 2024-09-03 08:51:53.868  WARN 15288 --- [main] o.s.web.servlet.PageNotFound             : No mapping for POST /parametrosGrupo
-2024-09-03 08:53:15.601  INFO 24880 --- [main] s.r.parametros.TestServicioParametros    : Starting TestServicioParametros using Java 1.8.0_291 on SC1_MZ1_0JBS9L with PID 24880 (started by CT24954 in D:\Documents and Settings\ct24954\Desktop\notinfi\servicio-rest)
+2024-09-03 08:53:15.601  INFO 24880 --- [main] s.r.parametros.TestServicioParametros    : Starting TestServicioParametros using Java 1.8.0_291 on SC1_MZ1_0JBS9L with PID 24880 (started by CT24954 in D:\Documents and Settings\ct24954\Desktop\stockManager\servicio-rest)
 2024-09-03 08:53:15.601  INFO 24880 --- [main] s.r.parametros.TestServicioParametros    : No active profile set, falling back to 1 default profile: "default"
 2024-09-03 08:53:16.150  INFO 24880 --- [main] v.c.s.rest.configuracion.Configuracion   : Inicializador de Aplicacion
 2024-09-03 08:53:16.168  INFO 24880 --- [main] s.r.parametros.TestServicioParametros    : Started TestServicioParametros in 1.036 seconds (JVM running for 2.507)
@@ -172,119 +172,119 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No q
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:710) ~[spring-beans-5.3.31.jar:5.3.31]
 	... 70 common frames omitted
 
-2024-09-03 08:53:42.486  INFO 9500 --- [main] s.r.parametros.TestServicioParametros    : Starting TestServicioParametros using Java 1.8.0_291 on SC1_MZ1_0JBS9L with PID 9500 (started by CT24954 in D:\Documents and Settings\ct24954\Desktop\notinfi\servicio-rest)
+2024-09-03 08:53:42.486  INFO 9500 --- [main] s.r.parametros.TestServicioParametros    : Starting TestServicioParametros using Java 1.8.0_291 on SC1_MZ1_0JBS9L with PID 9500 (started by CT24954 in D:\Documents and Settings\ct24954\Desktop\stockManager\servicio-rest)
 2024-09-03 08:53:42.486  INFO 9500 --- [main] s.r.parametros.TestServicioParametros    : No active profile set, falling back to 1 default profile: "default"
 2024-09-03 08:53:43.083  INFO 9500 --- [main] v.c.s.rest.configuracion.Configuracion   : Inicializador de Aplicacion
 2024-09-03 08:53:43.122  INFO 9500 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
 2024-09-03 08:53:43.122  INFO 9500 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
 2024-09-03 08:53:43.264  INFO 9500 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 142 ms
 2024-09-03 08:53:43.310  INFO 9500 --- [main] s.r.parametros.TestServicioParametros    : Started TestServicioParametros in 1.197 seconds (JVM running for 2.241)
-2024-09-03 08:53:43.420  WARN 9500 --- [main] o.s.web.servlet.PageNotFound             : No mapping for POST /api/notinfi/parametrosGrupo
-2024-09-03 09:02:04.037  INFO 23288 --- [main] s.r.parametros.TestServicioParametros    : Starting TestServicioParametros using Java 1.8.0_291 on SC1_MZ1_0JBS9L with PID 23288 (started by CT24954 in D:\Documents and Settings\ct24954\Desktop\notinfi\servicio-rest)
+2024-09-03 08:53:43.420  WARN 9500 --- [main] o.s.web.servlet.PageNotFound             : No mapping for POST /api/stockManager/parametrosGrupo
+2024-09-03 09:02:04.037  INFO 23288 --- [main] s.r.parametros.TestServicioParametros    : Starting TestServicioParametros using Java 1.8.0_291 on SC1_MZ1_0JBS9L with PID 23288 (started by CT24954 in D:\Documents and Settings\ct24954\Desktop\stockManager\servicio-rest)
 2024-09-03 09:02:04.037  INFO 23288 --- [main] s.r.parametros.TestServicioParametros    : No active profile set, falling back to 1 default profile: "default"
 2024-09-03 09:02:04.649  INFO 23288 --- [main] v.c.s.rest.configuracion.Configuracion   : Inicializador de Aplicacion
 2024-09-03 09:02:04.684  INFO 23288 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
 2024-09-03 09:02:04.684  INFO 23288 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
 2024-09-03 09:02:04.826  INFO 23288 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 142 ms
 2024-09-03 09:02:04.873  INFO 23288 --- [main] s.r.parametros.TestServicioParametros    : Started TestServicioParametros in 1.195 seconds (JVM running for 2.23)
-2024-09-03 09:02:04.983  WARN 23288 --- [main] o.s.web.servlet.PageNotFound             : No mapping for POST /api/notinfi/parametrosGrupo
-2024-09-03 09:06:01.809  INFO 25480 --- [main] s.r.parametros.TestServicioParametros    : Starting TestServicioParametros using Java 1.8.0_291 on SC1_MZ1_0JBS9L with PID 25480 (started by CT24954 in D:\Documents and Settings\ct24954\Desktop\notinfi\servicio-rest)
+2024-09-03 09:02:04.983  WARN 23288 --- [main] o.s.web.servlet.PageNotFound             : No mapping for POST /api/stockManager/parametrosGrupo
+2024-09-03 09:06:01.809  INFO 25480 --- [main] s.r.parametros.TestServicioParametros    : Starting TestServicioParametros using Java 1.8.0_291 on SC1_MZ1_0JBS9L with PID 25480 (started by CT24954 in D:\Documents and Settings\ct24954\Desktop\stockManager\servicio-rest)
 2024-09-03 09:06:01.809  INFO 25480 --- [main] s.r.parametros.TestServicioParametros    : No active profile set, falling back to 1 default profile: "default"
 2024-09-03 09:06:02.452  INFO 25480 --- [main] v.c.s.rest.configuracion.Configuracion   : Inicializador de Aplicacion
 2024-09-03 09:06:02.489  INFO 25480 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
 2024-09-03 09:06:02.489  INFO 25480 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
 2024-09-03 09:06:02.630  INFO 25480 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 141 ms
 2024-09-03 09:06:02.693  INFO 25480 --- [main] s.r.parametros.TestServicioParametros    : Started TestServicioParametros in 1.274 seconds (JVM running for 2.33)
-2024-09-03 09:06:02.803  WARN 25480 --- [main] o.s.web.servlet.PageNotFound             : No mapping for POST /api/notinfi/parametrosGrupo
-2024-09-03 10:09:28.126  INFO 15580 --- [main] s.r.parametros.TestServicioParametros    : Starting TestServicioParametros using Java 1.8.0_291 on SC1_MZ1_0JBS9L with PID 15580 (started by CT24954 in D:\Documents and Settings\ct24954\Desktop\notinfi\servicio-rest)
+2024-09-03 09:06:02.803  WARN 25480 --- [main] o.s.web.servlet.PageNotFound             : No mapping for POST /api/stockManager/parametrosGrupo
+2024-09-03 10:09:28.126  INFO 15580 --- [main] s.r.parametros.TestServicioParametros    : Starting TestServicioParametros using Java 1.8.0_291 on SC1_MZ1_0JBS9L with PID 15580 (started by CT24954 in D:\Documents and Settings\ct24954\Desktop\stockManager\servicio-rest)
 2024-09-03 10:09:28.126  INFO 15580 --- [main] s.r.parametros.TestServicioParametros    : No active profile set, falling back to 1 default profile: "default"
 2024-09-03 10:09:28.878  INFO 15580 --- [main] v.c.s.rest.configuracion.Configuracion   : Inicializador de Aplicacion
 2024-09-03 10:09:28.932  INFO 15580 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
 2024-09-03 10:09:28.947  INFO 15580 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
 2024-09-03 10:09:29.112  INFO 15580 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 165 ms
 2024-09-03 10:09:29.182  INFO 15580 --- [main] s.r.parametros.TestServicioParametros    : Started TestServicioParametros in 1.542 seconds (JVM running for 4.12)
-2024-09-03 10:09:29.313  WARN 15580 --- [main] o.s.web.servlet.PageNotFound             : No mapping for POST /api/notinfi/parametrosGrupo
-2024-09-03 10:13:25.762  INFO 13268 --- [main] s.r.parametros.TestServicioParametros    : Starting TestServicioParametros using Java 1.8.0_291 on SC1_MZ1_0JBS9L with PID 13268 (started by CT24954 in D:\Documents and Settings\ct24954\Desktop\notinfi\servicio-rest)
+2024-09-03 10:09:29.313  WARN 15580 --- [main] o.s.web.servlet.PageNotFound             : No mapping for POST /api/stockManager/parametrosGrupo
+2024-09-03 10:13:25.762  INFO 13268 --- [main] s.r.parametros.TestServicioParametros    : Starting TestServicioParametros using Java 1.8.0_291 on SC1_MZ1_0JBS9L with PID 13268 (started by CT24954 in D:\Documents and Settings\ct24954\Desktop\stockManager\servicio-rest)
 2024-09-03 10:13:25.762  INFO 13268 --- [main] s.r.parametros.TestServicioParametros    : No active profile set, falling back to 1 default profile: "default"
 2024-09-03 10:13:26.358  INFO 13268 --- [main] v.c.s.rest.configuracion.Configuracion   : Inicializador de Aplicacion
 2024-09-03 10:13:26.400  INFO 13268 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
 2024-09-03 10:13:26.400  INFO 13268 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
 2024-09-03 10:13:26.526  INFO 13268 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 126 ms
 2024-09-03 10:13:26.589  INFO 13268 --- [main] s.r.parametros.TestServicioParametros    : Started TestServicioParametros in 1.199 seconds (JVM running for 2.25)
-2024-09-03 10:13:26.667  WARN 13268 --- [main] o.s.web.servlet.PageNotFound             : No mapping for POST /api/notinfi/parametrosGrupo
-2024-09-03 10:15:38.729  INFO 24464 --- [main] s.r.parametros.TestServicioParametros    : Starting TestServicioParametros using Java 1.8.0_291 on SC1_MZ1_0JBS9L with PID 24464 (started by CT24954 in D:\Documents and Settings\ct24954\Desktop\notinfi\servicio-rest)
+2024-09-03 10:13:26.667  WARN 13268 --- [main] o.s.web.servlet.PageNotFound             : No mapping for POST /api/stockManager/parametrosGrupo
+2024-09-03 10:15:38.729  INFO 24464 --- [main] s.r.parametros.TestServicioParametros    : Starting TestServicioParametros using Java 1.8.0_291 on SC1_MZ1_0JBS9L with PID 24464 (started by CT24954 in D:\Documents and Settings\ct24954\Desktop\stockManager\servicio-rest)
 2024-09-03 10:15:38.729  INFO 24464 --- [main] s.r.parametros.TestServicioParametros    : No active profile set, falling back to 1 default profile: "default"
 2024-09-03 10:15:39.341  INFO 24464 --- [main] v.c.s.rest.configuracion.Configuracion   : Inicializador de Aplicacion
 2024-09-03 10:15:39.384  INFO 24464 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
 2024-09-03 10:15:39.384  INFO 24464 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
 2024-09-03 10:15:39.509  INFO 24464 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 125 ms
 2024-09-03 10:15:39.572  INFO 24464 --- [main] s.r.parametros.TestServicioParametros    : Started TestServicioParametros in 1.205 seconds (JVM running for 2.237)
-2024-09-03 10:15:39.682  WARN 24464 --- [main] o.s.web.servlet.PageNotFound             : No mapping for POST /api/notinfi/parametrosGrupo
-2024-09-03 10:37:59.005  INFO 3136 --- [main] s.r.parametros.TestServicioParametros    : Starting TestServicioParametros using Java 1.8.0_291 on SC1_MZ1_0JBS9L with PID 3136 (started by CT24954 in D:\Documents and Settings\ct24954\Desktop\notinfi\servicio-rest)
+2024-09-03 10:15:39.682  WARN 24464 --- [main] o.s.web.servlet.PageNotFound             : No mapping for POST /api/stockManager/parametrosGrupo
+2024-09-03 10:37:59.005  INFO 3136 --- [main] s.r.parametros.TestServicioParametros    : Starting TestServicioParametros using Java 1.8.0_291 on SC1_MZ1_0JBS9L with PID 3136 (started by CT24954 in D:\Documents and Settings\ct24954\Desktop\stockManager\servicio-rest)
 2024-09-03 10:37:59.005  INFO 3136 --- [main] s.r.parametros.TestServicioParametros    : No active profile set, falling back to 1 default profile: "default"
 2024-09-03 10:37:59.607  INFO 3136 --- [main] v.c.s.rest.configuracion.Configuracion   : Inicializador de Aplicacion
 2024-09-03 10:37:59.647  INFO 3136 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
 2024-09-03 10:37:59.647  INFO 3136 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
 2024-09-03 10:37:59.788  INFO 3136 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 141 ms
 2024-09-03 10:37:59.835  INFO 3136 --- [main] s.r.parametros.TestServicioParametros    : Started TestServicioParametros in 1.202 seconds (JVM running for 2.244)
-2024-09-03 10:37:59.945  WARN 3136 --- [main] o.s.web.servlet.PageNotFound             : No mapping for POST /api/notinfi/parametrosGrupo
-2024-09-03 10:40:01.704  INFO 2068 --- [main] s.r.parametros.TestServicioParametros    : Starting TestServicioParametros using Java 1.8.0_291 on SC1_MZ1_0JBS9L with PID 2068 (started by CT24954 in D:\Documents and Settings\ct24954\Desktop\notinfi\servicio-rest)
+2024-09-03 10:37:59.945  WARN 3136 --- [main] o.s.web.servlet.PageNotFound             : No mapping for POST /api/stockManager/parametrosGrupo
+2024-09-03 10:40:01.704  INFO 2068 --- [main] s.r.parametros.TestServicioParametros    : Starting TestServicioParametros using Java 1.8.0_291 on SC1_MZ1_0JBS9L with PID 2068 (started by CT24954 in D:\Documents and Settings\ct24954\Desktop\stockManager\servicio-rest)
 2024-09-03 10:40:01.704  INFO 2068 --- [main] s.r.parametros.TestServicioParametros    : No active profile set, falling back to 1 default profile: "default"
 2024-09-03 10:40:02.353  INFO 2068 --- [main] v.c.s.rest.configuracion.Configuracion   : Inicializador de Aplicacion
 2024-09-03 10:40:02.390  INFO 2068 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
 2024-09-03 10:40:02.390  INFO 2068 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
 2024-09-03 10:40:02.531  INFO 2068 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 141 ms
 2024-09-03 10:40:02.594  INFO 2068 --- [main] s.r.parametros.TestServicioParametros    : Started TestServicioParametros in 1.254 seconds (JVM running for 2.299)
-2024-09-03 10:40:02.688  WARN 2068 --- [main] o.s.web.servlet.PageNotFound             : No mapping for POST /api/notinfi/parametrosGrupo
-2024-09-03 10:46:20.571  INFO 14800 --- [main] s.r.parametros.TestServicioParametros    : Starting TestServicioParametros using Java 1.8.0_291 on SC1_MZ1_0JBS9L with PID 14800 (started by CT24954 in D:\Documents and Settings\ct24954\Desktop\notinfi\servicio-rest)
+2024-09-03 10:40:02.688  WARN 2068 --- [main] o.s.web.servlet.PageNotFound             : No mapping for POST /api/stockManager/parametrosGrupo
+2024-09-03 10:46:20.571  INFO 14800 --- [main] s.r.parametros.TestServicioParametros    : Starting TestServicioParametros using Java 1.8.0_291 on SC1_MZ1_0JBS9L with PID 14800 (started by CT24954 in D:\Documents and Settings\ct24954\Desktop\stockManager\servicio-rest)
 2024-09-03 10:46:20.571  INFO 14800 --- [main] s.r.parametros.TestServicioParametros    : No active profile set, falling back to 1 default profile: "default"
 2024-09-03 10:46:21.168  INFO 14800 --- [main] v.c.s.rest.configuracion.Configuracion   : Inicializador de Aplicacion
 2024-09-03 10:46:21.212  INFO 14800 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
 2024-09-03 10:46:21.212  INFO 14800 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
 2024-09-03 10:46:21.353  INFO 14800 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 141 ms
 2024-09-03 10:46:21.401  INFO 14800 --- [main] s.r.parametros.TestServicioParametros    : Started TestServicioParametros in 1.194 seconds (JVM running for 2.853)
-2024-09-03 10:46:21.510  WARN 14800 --- [main] o.s.web.servlet.PageNotFound             : No mapping for POST /api/notinfi/parametrosGrupo
-2024-09-03 10:46:55.906  INFO 15528 --- [main] s.r.parametros.TestServicioParametros    : Starting TestServicioParametros using Java 1.8.0_291 on SC1_MZ1_0JBS9L with PID 15528 (started by CT24954 in D:\Documents and Settings\ct24954\Desktop\notinfi\servicio-rest)
+2024-09-03 10:46:21.510  WARN 14800 --- [main] o.s.web.servlet.PageNotFound             : No mapping for POST /api/stockManager/parametrosGrupo
+2024-09-03 10:46:55.906  INFO 15528 --- [main] s.r.parametros.TestServicioParametros    : Starting TestServicioParametros using Java 1.8.0_291 on SC1_MZ1_0JBS9L with PID 15528 (started by CT24954 in D:\Documents and Settings\ct24954\Desktop\stockManager\servicio-rest)
 2024-09-03 10:46:55.906  INFO 15528 --- [main] s.r.parametros.TestServicioParametros    : No active profile set, falling back to 1 default profile: "default"
 2024-09-03 10:46:56.503  INFO 15528 --- [main] v.c.s.rest.configuracion.Configuracion   : Inicializador de Aplicacion
 2024-09-03 10:46:56.550  INFO 15528 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
 2024-09-03 10:46:56.550  INFO 15528 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
 2024-09-03 10:46:56.684  INFO 15528 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 134 ms
 2024-09-03 10:46:56.740  INFO 15528 --- [main] s.r.parametros.TestServicioParametros    : Started TestServicioParametros in 1.188 seconds (JVM running for 2.21)
-2024-09-03 10:46:56.850  WARN 15528 --- [main] o.s.web.servlet.PageNotFound             : No mapping for POST /api/notinfi/parametrosGrupo
-2024-09-03 10:47:19.793  INFO 21536 --- [main] s.r.parametros.TestServicioParametros    : Starting TestServicioParametros using Java 1.8.0_291 on SC1_MZ1_0JBS9L with PID 21536 (started by CT24954 in D:\Documents and Settings\ct24954\Desktop\notinfi\servicio-rest)
+2024-09-03 10:46:56.850  WARN 15528 --- [main] o.s.web.servlet.PageNotFound             : No mapping for POST /api/stockManager/parametrosGrupo
+2024-09-03 10:47:19.793  INFO 21536 --- [main] s.r.parametros.TestServicioParametros    : Starting TestServicioParametros using Java 1.8.0_291 on SC1_MZ1_0JBS9L with PID 21536 (started by CT24954 in D:\Documents and Settings\ct24954\Desktop\stockManager\servicio-rest)
 2024-09-03 10:47:19.793  INFO 21536 --- [main] s.r.parametros.TestServicioParametros    : No active profile set, falling back to 1 default profile: "default"
 2024-09-03 10:47:20.389  INFO 21536 --- [main] v.c.s.rest.configuracion.Configuracion   : Inicializador de Aplicacion
 2024-09-03 10:47:20.436  INFO 21536 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
 2024-09-03 10:47:20.436  INFO 21536 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
 2024-09-03 10:47:20.577  INFO 21536 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 141 ms
 2024-09-03 10:47:20.624  INFO 21536 --- [main] s.r.parametros.TestServicioParametros    : Started TestServicioParametros in 1.21 seconds (JVM running for 2.22)
-2024-09-03 10:47:20.745  WARN 21536 --- [main] o.s.web.servlet.PageNotFound             : No mapping for POST /api/notinfi/parametrosGrupo
-2024-09-03 10:47:50.116  INFO 21516 --- [main] s.r.parametros.TestServicioParametros    : Starting TestServicioParametros using Java 1.8.0_291 on SC1_MZ1_0JBS9L with PID 21516 (started by CT24954 in D:\Documents and Settings\ct24954\Desktop\notinfi\servicio-rest)
+2024-09-03 10:47:20.745  WARN 21536 --- [main] o.s.web.servlet.PageNotFound             : No mapping for POST /api/stockManager/parametrosGrupo
+2024-09-03 10:47:50.116  INFO 21516 --- [main] s.r.parametros.TestServicioParametros    : Starting TestServicioParametros using Java 1.8.0_291 on SC1_MZ1_0JBS9L with PID 21516 (started by CT24954 in D:\Documents and Settings\ct24954\Desktop\stockManager\servicio-rest)
 2024-09-03 10:47:50.125  INFO 21516 --- [main] s.r.parametros.TestServicioParametros    : No active profile set, falling back to 1 default profile: "default"
 2024-09-03 10:47:50.721  INFO 21516 --- [main] v.c.s.rest.configuracion.Configuracion   : Inicializador de Aplicacion
 2024-09-03 10:47:50.757  INFO 21516 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
 2024-09-03 10:47:50.757  INFO 21516 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
 2024-09-03 10:47:50.898  INFO 21516 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 141 ms
 2024-09-03 10:47:50.946  INFO 21516 --- [main] s.r.parametros.TestServicioParametros    : Started TestServicioParametros in 1.196 seconds (JVM running for 2.203)
-2024-09-03 10:47:51.056  WARN 21516 --- [main] o.s.web.servlet.PageNotFound             : No mapping for POST /api/notinfi/parametrosGrupo
-2024-09-03 10:49:01.216  INFO 22356 --- [main] s.r.parametros.TestServicioParametros    : Starting TestServicioParametros using Java 1.8.0_291 on SC1_MZ1_0JBS9L with PID 22356 (started by CT24954 in D:\Documents and Settings\ct24954\Desktop\notinfi\servicio-rest)
+2024-09-03 10:47:51.056  WARN 21516 --- [main] o.s.web.servlet.PageNotFound             : No mapping for POST /api/stockManager/parametrosGrupo
+2024-09-03 10:49:01.216  INFO 22356 --- [main] s.r.parametros.TestServicioParametros    : Starting TestServicioParametros using Java 1.8.0_291 on SC1_MZ1_0JBS9L with PID 22356 (started by CT24954 in D:\Documents and Settings\ct24954\Desktop\stockManager\servicio-rest)
 2024-09-03 10:49:01.216  INFO 22356 --- [main] s.r.parametros.TestServicioParametros    : No active profile set, falling back to 1 default profile: "default"
 2024-09-03 10:49:01.813  INFO 22356 --- [main] v.c.s.rest.configuracion.Configuracion   : Inicializador de Aplicacion
 2024-09-03 10:49:01.854  INFO 22356 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
 2024-09-03 10:49:01.854  INFO 22356 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
 2024-09-03 10:49:02.011  INFO 22356 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 157 ms
 2024-09-03 10:49:02.074  INFO 22356 --- [main] s.r.parametros.TestServicioParametros    : Started TestServicioParametros in 1.232 seconds (JVM running for 2.243)
-2024-09-03 10:49:02.196  WARN 22356 --- [main] o.s.web.servlet.PageNotFound             : No mapping for POST /api/notinfi/parametrosGrupo
-2024-09-03 10:53:57.451  INFO 25236 --- [main] s.r.parametros.TestServicioParametros    : Starting TestServicioParametros using Java 1.8.0_291 on SC1_MZ1_0JBS9L with PID 25236 (started by CT24954 in D:\Documents and Settings\ct24954\Desktop\notinfi\servicio-rest)
+2024-09-03 10:49:02.196  WARN 22356 --- [main] o.s.web.servlet.PageNotFound             : No mapping for POST /api/stockManager/parametrosGrupo
+2024-09-03 10:53:57.451  INFO 25236 --- [main] s.r.parametros.TestServicioParametros    : Starting TestServicioParametros using Java 1.8.0_291 on SC1_MZ1_0JBS9L with PID 25236 (started by CT24954 in D:\Documents and Settings\ct24954\Desktop\stockManager\servicio-rest)
 2024-09-03 10:53:57.451  INFO 25236 --- [main] s.r.parametros.TestServicioParametros    : No active profile set, falling back to 1 default profile: "default"
 2024-09-03 10:53:58.063  INFO 25236 --- [main] v.c.s.rest.configuracion.Configuracion   : Inicializador de Aplicacion
 2024-09-03 10:53:58.109  INFO 25236 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
 2024-09-03 10:53:58.109  INFO 25236 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
 2024-09-03 10:53:58.251  INFO 25236 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 142 ms
 2024-09-03 10:53:58.298  INFO 25236 --- [main] s.r.parametros.TestServicioParametros    : Started TestServicioParametros in 1.229 seconds (JVM running for 2.263)
-2024-09-03 10:53:58.423  WARN 25236 --- [main] o.s.web.servlet.PageNotFound             : No mapping for POST /api/notinfi/parametrosGrupo
-2024-09-03 13:26:48.204  INFO 22420 --- [main] s.r.parametros.TestServicioParametros    : Starting TestServicioParametros using Java 1.8.0_291 on SC1_MZ1_0JBS9L with PID 22420 (started by CT24954 in D:\Documents and Settings\ct24954\Desktop\notinfi\servicio-rest)
+2024-09-03 10:53:58.423  WARN 25236 --- [main] o.s.web.servlet.PageNotFound             : No mapping for POST /api/stockManager/parametrosGrupo
+2024-09-03 13:26:48.204  INFO 22420 --- [main] s.r.parametros.TestServicioParametros    : Starting TestServicioParametros using Java 1.8.0_291 on SC1_MZ1_0JBS9L with PID 22420 (started by CT24954 in D:\Documents and Settings\ct24954\Desktop\stockManager\servicio-rest)
 2024-09-03 13:26:48.204  INFO 22420 --- [main] s.r.parametros.TestServicioParametros    : No active profile set, falling back to 1 default profile: "default"
 2024-09-03 13:26:48.754  INFO 22420 --- [main] v.c.s.rest.configuracion.Configuracion   : Inicializador de Aplicacion
 2024-09-03 13:26:48.760  INFO 22420 --- [main] s.r.parametros.TestServicioParametros    : Started TestServicioParametros in 0.977 seconds (JVM running for 2.309)
@@ -450,35 +450,35 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No q
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:710) ~[spring-beans-5.3.31.jar:5.3.31]
 	... 70 common frames omitted
 
-2024-09-03 13:27:14.596  INFO 24588 --- [main] s.r.parametros.TestServicioParametros    : Starting TestServicioParametros using Java 1.8.0_291 on SC1_MZ1_0JBS9L with PID 24588 (started by CT24954 in D:\Documents and Settings\ct24954\Desktop\notinfi\servicio-rest)
+2024-09-03 13:27:14.596  INFO 24588 --- [main] s.r.parametros.TestServicioParametros    : Starting TestServicioParametros using Java 1.8.0_291 on SC1_MZ1_0JBS9L with PID 24588 (started by CT24954 in D:\Documents and Settings\ct24954\Desktop\stockManager\servicio-rest)
 2024-09-03 13:27:14.596  INFO 24588 --- [main] s.r.parametros.TestServicioParametros    : No active profile set, falling back to 1 default profile: "default"
 2024-09-03 13:27:15.208  INFO 24588 --- [main] v.c.s.rest.configuracion.Configuracion   : Inicializador de Aplicacion
 2024-09-03 13:27:15.242  INFO 24588 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
 2024-09-03 13:27:15.242  INFO 24588 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
 2024-09-03 13:27:15.367  INFO 24588 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 125 ms
 2024-09-03 13:27:15.430  INFO 24588 --- [main] s.r.parametros.TestServicioParametros    : Started TestServicioParametros in 1.193 seconds (JVM running for 2.208)
-2024-09-03 13:27:15.540  WARN 24588 --- [main] o.s.web.servlet.PageNotFound             : No mapping for POST /api/notinfi/parametrosGrupo
-2024-09-03 13:27:27.942  INFO 9448 --- [main] s.r.parametros.TestServicioParametros    : Starting TestServicioParametros using Java 1.8.0_291 on SC1_MZ1_0JBS9L with PID 9448 (started by CT24954 in D:\Documents and Settings\ct24954\Desktop\notinfi\servicio-rest)
+2024-09-03 13:27:15.540  WARN 24588 --- [main] o.s.web.servlet.PageNotFound             : No mapping for POST /api/stockManager/parametrosGrupo
+2024-09-03 13:27:27.942  INFO 9448 --- [main] s.r.parametros.TestServicioParametros    : Starting TestServicioParametros using Java 1.8.0_291 on SC1_MZ1_0JBS9L with PID 9448 (started by CT24954 in D:\Documents and Settings\ct24954\Desktop\stockManager\servicio-rest)
 2024-09-03 13:27:27.942  INFO 9448 --- [main] s.r.parametros.TestServicioParametros    : No active profile set, falling back to 1 default profile: "default"
 2024-09-03 13:27:28.539  INFO 9448 --- [main] v.c.s.rest.configuracion.Configuracion   : Inicializador de Aplicacion
 2024-09-03 13:27:28.576  INFO 9448 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
 2024-09-03 13:27:28.576  INFO 9448 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
 2024-09-03 13:27:28.717  INFO 9448 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 141 ms
 2024-09-03 13:27:28.764  INFO 9448 --- [main] s.r.parametros.TestServicioParametros    : Started TestServicioParametros in 1.202 seconds (JVM running for 2.219)
-2024-09-03 13:27:28.874  WARN 9448 --- [main] o.s.web.servlet.PageNotFound             : No mapping for POST /api/notinfi/parametrosGrupo
-2024-09-03 13:27:56.305  INFO 24064 --- [main] s.r.parametros.TestServicioParametros    : Starting TestServicioParametros using Java 1.8.0_291 on SC1_MZ1_0JBS9L with PID 24064 (started by CT24954 in D:\Documents and Settings\ct24954\Desktop\notinfi\servicio-rest)
+2024-09-03 13:27:28.874  WARN 9448 --- [main] o.s.web.servlet.PageNotFound             : No mapping for POST /api/stockManager/parametrosGrupo
+2024-09-03 13:27:56.305  INFO 24064 --- [main] s.r.parametros.TestServicioParametros    : Starting TestServicioParametros using Java 1.8.0_291 on SC1_MZ1_0JBS9L with PID 24064 (started by CT24954 in D:\Documents and Settings\ct24954\Desktop\stockManager\servicio-rest)
 2024-09-03 13:27:56.305  INFO 24064 --- [main] s.r.parametros.TestServicioParametros    : No active profile set, falling back to 1 default profile: "default"
 2024-09-03 13:27:56.902  INFO 24064 --- [main] v.c.s.rest.configuracion.Configuracion   : Inicializador de Aplicacion
 2024-09-03 13:27:56.942  INFO 24064 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
 2024-09-03 13:27:56.942  INFO 24064 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
 2024-09-03 13:27:57.084  INFO 24064 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 142 ms
 2024-09-03 13:27:57.131  INFO 24064 --- [main] s.r.parametros.TestServicioParametros    : Started TestServicioParametros in 1.201 seconds (JVM running for 2.212)
-2024-09-03 13:27:57.240  WARN 24064 --- [main] o.s.web.servlet.PageNotFound             : No mapping for POST /api/notinfi/parametrosGrupo
-2024-09-03 13:30:04.894  INFO 24032 --- [main] s.r.parametros.TestServicioParametros    : Starting TestServicioParametros using Java 1.8.0_291 on SC1_MZ1_0JBS9L with PID 24032 (started by CT24954 in D:\Documents and Settings\ct24954\Desktop\notinfi\servicio-rest)
+2024-09-03 13:27:57.240  WARN 24064 --- [main] o.s.web.servlet.PageNotFound             : No mapping for POST /api/stockManager/parametrosGrupo
+2024-09-03 13:30:04.894  INFO 24032 --- [main] s.r.parametros.TestServicioParametros    : Starting TestServicioParametros using Java 1.8.0_291 on SC1_MZ1_0JBS9L with PID 24032 (started by CT24954 in D:\Documents and Settings\ct24954\Desktop\stockManager\servicio-rest)
 2024-09-03 13:30:04.894  INFO 24032 --- [main] s.r.parametros.TestServicioParametros    : No active profile set, falling back to 1 default profile: "default"
 2024-09-03 13:30:05.490  INFO 24032 --- [main] v.c.s.rest.configuracion.Configuracion   : Inicializador de Aplicacion
 2024-09-03 13:30:05.530  INFO 24032 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
 2024-09-03 13:30:05.530  INFO 24032 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
 2024-09-03 13:30:05.672  INFO 24032 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 142 ms
 2024-09-03 13:30:05.719  INFO 24032 --- [main] s.r.parametros.TestServicioParametros    : Started TestServicioParametros in 1.225 seconds (JVM running for 2.232)
-2024-09-03 13:30:05.844  WARN 24032 --- [main] o.s.web.servlet.PageNotFound             : No mapping for POST /api/notinfi/parametrosGrupo
+2024-09-03 13:30:05.844  WARN 24032 --- [main] o.s.web.servlet.PageNotFound             : No mapping for POST /api/stockManager/parametrosGrupo

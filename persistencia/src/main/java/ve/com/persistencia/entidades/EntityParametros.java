@@ -16,19 +16,21 @@ import lombok.Data;
  */
 
 @Entity
-@Table(name = "INFI_TB_002_PARAM_TIPOS")
+@Table(name = "parametros")
 @Data
 public class EntityParametros {
 
 	@Id
-	@Column(name = "PARTIP_NOMBRE_PARAMETRO")
-	private String partipNombreParametro;
-	@Column(name = "PARTIP_DESCRIPCION")
-	private String partipDescripcion;
-	@Column(name = "PARGRP_ID")
-	private String pargrpId;
-	@Column(name = "PARTIP_VALOR_DEFECTO")
-	private String partipValorDefecto;
-	@Column(name = "PARVAL_VALOR")
-	private String parvalValor;
+	@Column(name = "id")
+	private String id;
+	@Column(name = "nombre")
+	private String nombre;
+	@Column(name = "valor")
+	private String valor;
+	@Column(name = "valor_defecto")
+	private String valorDefecto;
+	@Column(name = "descripcion")
+	private String descripcion;
+	@Column(name = "id_estatus")
+	private String estatus;
 }

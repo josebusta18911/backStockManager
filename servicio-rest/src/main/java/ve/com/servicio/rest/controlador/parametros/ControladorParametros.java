@@ -1,6 +1,7 @@
 package ve.com.servicio.rest.controlador.parametros;
 
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -26,35 +27,29 @@ import ve.com.servicio.rest.utils.EnumRespuesta;
  */
 @Slf4j
 @RestController
-@RequestMapping("/api/notinfi")
+@RequestMapping("/api/stockManager")
 @CrossOrigin
 public class ControladorParametros {
 
 	@Autowired
 	private LogicaParametros logicaParametros;
 
-	@PostMapping("/parametrosGrupo")
+	@PostMapping("/parametros")
 	public Parametros buscarParametrosGrupo(@RequestBody DTOReqParametros request) {
 		Parametros resp = new Parametros();
-		List<EntityParametros> listaParametros;
+		Optional<EntityParametros> listaParametros;
 		System.out.println("request::"+request);
 		try {
-			log.error("grupo id::" + request.getPargrpId());
-			listaParametros = logicaParametros.obtenerParametrosPorGrupoId(request.getPargrpId());
-			log.error("lista::" + listaParametros.size());
+			listaParametros = logicaParametros.obtenerParametrosPorId(request.getId());
 
 			resp.setCodigo(EnumRespuesta.Aprobada.getCodigo());
 			resp.setMensajeCliente(EnumRespuesta.Aprobada.getMensajeCliente());
 			resp.setMensajeSistema(EnumRespuesta.Aprobada.getMensajeCliente());
 
 			// Procesamos la lista de parametros			
-//			List<DTORespParametros> parametros = new ArrayList<DTORespParametros>();;
-//			listaParametros.forEach(p -> {
-//			parametros.add(new DTORespParametros(p.getPartipNombreParametro(),p.getPartipDescripcion(),p.getPargrpId(),p.getPartipValorDefecto(),p.getParvalValor()));
-//		});
 			List<DTORespParametros> parametros = listaParametros.stream()
-					.map(p -> new DTORespParametros(p.getPartipNombreParametro(), p.getPartipDescripcion(),
-							p.getPargrpId(), p.getPartipValorDefecto(), p.getParvalValor()))
+					.map(p -> new DTORespParametros(p.getId(),p.getNombre(),p.getValor(),p.getValorDefecto(),
+							p.getDescripcion(),p.getEstatus()))
 					.collect(Collectors.toList()); 
 
 			resp.setParametros(parametros);

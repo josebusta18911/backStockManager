@@ -78,7 +78,7 @@ public class TestServicioParametros {
                 .collect(Collectors.toList());
         expectedResponse.setParametros(parametro);
 
-        mockMvc.perform(MockMvcRequestBuilders.post("/api/notinfi/parametrosGrupo")
+        mockMvc.perform(MockMvcRequestBuilders.post("/api/stockManager/parametrosGrupo")
                 .contentType("application/json")
                 .content(new ObjectMapper().writeValueAsString(request)))       		
                 .andExpect(status().isNotFound());

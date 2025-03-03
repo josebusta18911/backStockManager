@@ -17,10 +17,10 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class DTOReqParametros {
 
-	private String partipNombreParametro;
-	private String partipDescripcion;
-	private String pargrpId;
-	private String partipValorDefecto;
-	private String parvalValor;
-
+	private String id;
+	private String nombre;
+	private String valor;
+	private String valorDefecto;
+	private String descripcion;
+	private String estatus;
 }

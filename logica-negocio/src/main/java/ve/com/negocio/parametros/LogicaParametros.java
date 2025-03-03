@@ -1,6 +1,7 @@
 package ve.com.negocio.parametros;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -27,8 +28,8 @@ public class LogicaParametros {
 		return parametros.findAll();
 	}
 
-	public List<EntityParametros> obtenerParametrosPorGrupoId(String pargrpId) {
-		return parametros.findByPargrpId(pargrpId);
+	public Optional<EntityParametros> obtenerParametrosPorId(String id) {
+		return parametros.findById(id); 
 	}
 
 	public EntityParametros guardar(EntityParametros usuario) {

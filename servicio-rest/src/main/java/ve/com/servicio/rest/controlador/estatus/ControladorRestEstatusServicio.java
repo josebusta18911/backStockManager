@@ -19,7 +19,7 @@ import ve.com.servicio.rest.utils.EnumRespuesta;
  */
 
 @RestController
-@RequestMapping("/api/notinfi")
+@RequestMapping("/api/stockManager")
 @CrossOrigin
 public class ControladorRestEstatusServicio {
 
