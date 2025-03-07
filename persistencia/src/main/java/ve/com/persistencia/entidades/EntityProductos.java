@@ -22,9 +22,9 @@ public class EntityProductos {
 
 	@Id
 	@Column(name = "id")
-	private String id;
+	private Integer id;
 	@Column(name = "id_proveedor")
-	private String idProveedor;
+	private Integer idProveedor;
 	@Column(name = "codigo")
 	private String codigo;
 	@Column(name = "imagen")
@@ -36,13 +36,13 @@ public class EntityProductos {
 	@Column(name = "precio_unidad")
 	private String precioUnidad;
 	@Column(name = "stock")
-	private String stock;
+	private Integer stock;
 	@Column(name = "id_categoria")
-	private String idCategoria;
+	private Integer idCategoria;
 	@Column(name = "id_compra")
-	private String idCompra;
+	private Integer idCompra;
 	@Column(name = "utilidad_porcentaje")
 	private String utilidadPorcentaje;
 	@Column(name = "id_estatus")
-	private String estatus;
+	private Integer estatus;
 }

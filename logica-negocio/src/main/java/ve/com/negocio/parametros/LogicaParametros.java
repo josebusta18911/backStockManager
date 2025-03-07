@@ -28,7 +28,7 @@ public class LogicaParametros {
 		return parametros.findAll();
 	}
 
-	public Optional<EntityParametros> obtenerParametrosPorId(String id) {
+	public Optional<EntityParametros> obtenerParametrosPorId(Integer id) {
 		return parametros.findById(id); 
 	}
 

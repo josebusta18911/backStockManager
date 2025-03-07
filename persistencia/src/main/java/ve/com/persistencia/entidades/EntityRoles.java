@@ -22,11 +22,11 @@ public class EntityRoles {
 
 	@Id
 	@Column(name = "id")
-	private String id;
+	private Integer id;
 	@Column(name = "nombre")
 	private String nombre;
 	@Column(name = "descripcion")
 	private String descripcion;
 	@Column(name = "id_estatus")
-	private String estatus;
+	private Integer estatus;
 }

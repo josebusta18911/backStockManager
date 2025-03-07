@@ -12,7 +12,7 @@ import ve.com.persistencia.entidades.EntityParametros;
  *
  */
 
-public interface RepositoryParametros extends JpaRepository<EntityParametros, String> {
+public interface RepositoryParametros extends JpaRepository<EntityParametros, Integer> {
 
 	// Usando la convención de nombres de Spring Data JPA
 	List<EntityParametros> findByPargrpId(String pargrpId);

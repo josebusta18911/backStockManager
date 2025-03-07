@@ -22,7 +22,7 @@ public class EntityEstatus {
 
 	@Id
 	@Column(name = "id")
-	private String id;
+	private Integer id;
 	@Column(name = "nombre")
 	private String nombre;
 	@Column(name = "descripcion")

@@ -17,10 +17,10 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class DTOReqParametros {
 
-	private String id;
+	private Integer id;
 	private String nombre;
 	private String valor;
 	private String valorDefecto;
 	private String descripcion;
-	private String estatus;
+	private Integer estatus;
 }

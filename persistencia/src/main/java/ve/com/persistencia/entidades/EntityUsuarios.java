@@ -22,19 +22,19 @@ public class EntityUsuarios {
 
 	@Id
 	@Column(name = "id")
-	private String id;
+	private Integer id;
 	@Column(name = "usuario")
 	private String usuario;
 	@Column(name = "password")
 	private String password;
 	@Column(name = "id_empleado")
-	private String idEmpleado;
+	private Integer idEmpleado;
 	@Column(name = "id_rol")
-	private String idRol;
+	private Integer idRol;
 	@Column(name = "fecha_creacion")
 	private String fechaCreacion;
 	@Column(name = "fecha_actualizacion")
 	private String fechaActualizacion;
 	@Column(name = "id_estatus")
-	private String estatus;
+	private Integer estatus;
 }

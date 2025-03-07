@@ -21,19 +21,19 @@ import lombok.Data;
 public class EntityClientes {
 	@Id
 	@Column(name = "id")
-	private String id;
+	private Integer id;
 	@Column(name = "nombre")
 	private String nombre;
 	@Column(name = "apellido")
 	private String apellido;
 	@Column(name = "tipo_doc")
-	private String tipo_doc;
+	private String tipoDoc;
 	@Column(name = "nro_doc")
-	private String nro_doc;
+	private String nroDoc;
 	@Column(name = "nro_telefono")
-	private String nro_telefono;
+	private String nroTelefono;
 	@Column(name = "email")
 	private String email;
 	@Column(name = "id_estatus")
-	private String id_estatus;
+	private Integer estatus;
 }

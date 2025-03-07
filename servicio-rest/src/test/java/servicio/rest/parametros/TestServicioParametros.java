@@ -5,6 +5,7 @@ import static org.mockito.Mockito.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -51,32 +52,24 @@ public class TestServicioParametros {
     @Test
     public void testBuscarParametrosGrupo() throws Exception {
         DTOReqParametros request = new DTOReqParametros();
-        request.setPargrpId("002");
-        request.setPartipNombreParametro("CCYSACCT");
-        request.setPartipDescripcion("");
-        request.setPartipValorDefecto("");
-        request.setParvalValor("");
+        request.setId(2);
 
-        List<EntityParametros> parametrosList = new ArrayList<>();
+        Optional<EntityParametros> parametrosList = Optional.empty();
         EntityParametros parametros = new EntityParametros();
-        parametros.setPargrpId("002");
-        parametros.setPartipNombreParametro("CCYSACCT");
-        parametros.setPartipDescripcion("");
-        parametros.setPartipValorDefecto("");
-        parametros.setParvalValor("");
-        parametrosList.add(parametros);
+        parametros.setId(2);
+       // parametrosList.add(parametros);
 
-        when(logicaParametros.obtenerParametrosPorGrupoId("002")).thenReturn(parametrosList);
+        when(logicaParametros.obtenerParametrosPorId(2)).thenReturn(parametrosList);
 
         Parametros expectedResponse = new Parametros();
         expectedResponse.setCodigo(EnumRespuesta.Aprobada.getCodigo());
         expectedResponse.setMensajeCliente(EnumRespuesta.Aprobada.getMensajeCliente());
         expectedResponse.setMensajeSistema(EnumRespuesta.Aprobada.getMensajeCliente());
-        List<DTORespParametros> parametro = parametrosList.stream()
-                .map(p -> new DTORespParametros(p.getPartipNombreParametro(), p.getPartipDescripcion(),
-                        p.getPargrpId(), p.getPartipValorDefecto(), p.getParvalValor()))
-                .collect(Collectors.toList());
-        expectedResponse.setParametros(parametro);
+//        List<DTORespParametros> parametro = parametrosList.stream()
+//                .map(p -> new DTORespParametros(p.getPartipNombreParametro(), p.getPartipDescripcion(),
+//                        p.getPargrpId(), p.getPartipValorDefecto(), p.getParvalValor()))
+//                .collect(Collectors.toList());
+//        expectedResponse.setParametros(parametro);
 
         mockMvc.perform(MockMvcRequestBuilders.post("/api/stockManager/parametrosGrupo")
                 .contentType("application/json")

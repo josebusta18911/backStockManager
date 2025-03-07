@@ -22,7 +22,7 @@ public class EntityProveedores {
 
 	@Id
 	@Column(name = "id")
-	private String id;
+	private Integer id;
 	@Column(name = "empresa")
 	private String empresa;
 	@Column(name = "tipo_producto")
@@ -34,5 +34,5 @@ public class EntityProveedores {
 	@Column(name = "email")
 	private String email;
 	@Column(name = "id_estatus")
-	private String estatus;
+	private Integer estatus;
 }

@@ -22,7 +22,7 @@ public class EntityEmpleados {
 
 	@Id
 	@Column(name = "id")
-	private String id;
+	private Integer id;
 	@Column(name = "nombre")
 	private String nombre;
 	@Column(name = "apellido")
@@ -44,5 +44,5 @@ public class EntityEmpleados {
 	@Column(name = "salario")
 	private String salario;
 	@Column(name = "id_estatus")
-	private String estatus;
+	private Integer estatus;
 }

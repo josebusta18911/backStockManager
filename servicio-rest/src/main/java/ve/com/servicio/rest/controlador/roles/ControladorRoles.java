@@ -13,6 +13,13 @@ import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.HttpClientErrorException;
+
+import ve.com.negocio.roles.LogicaRol;
+import ve.com.negocio.roles.modelo.mLrol;
+import ve.com.persistencia.entidades.EntityRoles;
+import ve.com.servicio.rest.DTO.request.rol.ModeloReqRol;
+import ve.com.servicio.rest.DTO.response.roles.ModeloRol;
+import ve.com.servicio.rest.DTO.response.roles.Roles;
 import ve.com.servicio.rest.utils.EnumRespuesta;
 
 @RestController	
@@ -27,13 +34,12 @@ public class ControladorRoles {
 	// Metodos publicos
 	@PostMapping("registrar")
 	public Roles registrar(@RequestHeader Map<String, String> headers, @RequestBody ModeloReqRol request)
-			throws ExcepcionLogicaRol {
+			throws Exception {
 		// Creamos Rol
 		EntityRoles rol = new EntityRoles();
 		// rol.setCodigo(request.getCodigo());
 		rol.setEstatus(Integer.valueOf(request.getEstatus()));
 		rol.setNombre(request.getNombre());
-		rol.setTipo(Integer.valueOf(request.getTipo()));
 		Roles resp = new Roles();
 		try {
 
@@ -57,7 +63,7 @@ public class ControladorRoles {
 
 	@PostMapping("buscar")
 	public Roles consulta(@RequestHeader Map<String, String> headers, @RequestBody ModeloReqRol request)
-			throws HttpClientErrorException, ExcepcionLogicaRol {
+			throws HttpClientErrorException, Exception {
 
 		// Procesamos la peticion
 		Roles resp = new Roles();
@@ -68,10 +74,8 @@ public class ControladorRoles {
 			if (request.getNombre() != "") {
 				consulta.setNombre(request.getNombre());
 			}
-			if (request.getTipo() != "") {
-				consulta.setTipo(Integer.valueOf(request.getTipo()));
-			}
-			if (request.getEstatus() != "") {
+
+			if (request.getEstatus() != null) {
 				consulta.setEstatus(Integer.valueOf(request.getEstatus()));
 			}
 			modelo = lRol.obtenerRol(consulta);
@@ -81,7 +85,7 @@ public class ControladorRoles {
 			resp.setMensajeSistema(EnumRespuesta.Aprobada.getMensajeCliente());
 
 			List<ModeloRol> roles = modelo.getRoles().stream()
-					.map(r -> new ModeloRol(r.getCodigo(), r.getNombre(), r.getTipo(), r.getEstatus()))
+					.map(r -> new ModeloRol(r.getId(), r.getNombre(),r.getEstatus(),r.getDescripcion()))
 					.collect(Collectors.toList());
 			resp.setRoles(roles);
 			// }
@@ -99,7 +103,7 @@ public class ControladorRoles {
 
 	@PostMapping("actualizar")
 	public Roles actualizar(@RequestHeader Map<String, String> headers, @RequestBody ModeloReqRol request)
-			throws HttpClientErrorException, ExcepcionLogicaRol {
+			throws HttpClientErrorException, Exception {
 
 		// Procesamos la peticion
 
@@ -109,14 +113,11 @@ public class ControladorRoles {
 			if (request.getNombre() != "") {
 				consulta.setNombre(request.getNombre());
 			}
-			if (request.getTipo() != "") {
-				consulta.setTipo(Integer.valueOf(request.getTipo()));
-			}
-			if (request.getEstatus() != "") {
+			if (request.getEstatus() != null) {
 				consulta.setEstatus(Integer.valueOf(request.getEstatus()));
 			}
-			if (request.getCodigo() != "") {
-				consulta.setCodigo(Integer.valueOf(request.getCodigo()));
+			if (request.getId() != null) {
+				consulta.setId(Integer.valueOf(request.getId()));
 			}
 
 			lRol.actualizar(consulta);
@@ -137,13 +138,13 @@ public class ControladorRoles {
 
 	@PostMapping("eliminar")
 	public Roles eliminar(@RequestHeader Map<String, String> headers, @RequestBody ModeloReqRol request)
-			throws HttpClientErrorException, ExcepcionLogicaRol {
+			throws HttpClientErrorException, Exception {
 
 		// Procesamos la peticion
 		Roles resp = new Roles();
 		try {
 
-			lRol.eliminarRol(Integer.valueOf(request.getCodigo()));
+			lRol.eliminarRol(Integer.valueOf(request.getId()));
 			// Procesamos los resultados
 			resp.setCodigo(EnumRespuesta.Aprobada.getCodigo());
 			resp.setMensajeCliente(EnumRespuesta.Aprobada.getMensajeCliente());
